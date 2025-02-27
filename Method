@@ -1,0 +1,19 @@
+---- Followed Methodology ----
+
+Step 1:
+    The first step in the process is to scan the faces of all known people in the vicinity.
+    Each person will be assigned a name and a unique identification number.
+    He/she will enter her information.
+    After registering each person, training is completed.
+    Every time, this process is repeated.
+Step 2:
+    The next step is recognition.  
+    The GUI facilitates the entire scanning, training, and recognition process.
+Step 3:
+    Later, the implementation code is loaded into Raspberry Pi, making it a real-time system.
+Step 4:
+    Machine learning is used for scanning, training, and recognition purposes.
+    The Local Binary Pattern Histogram (LBPH) algorithm is used for recognition and haarcascades for detection.
+Step 5:
+    When an intruder is detected, the owner/administrator is automatically notified via "a message (SMS)", "WhatsApp message", "location of intruder", "an immediate call", and "intruder's image to owner's/administrator's WhatsApp".    
+    The messaging/calling service is implemented by importing the TWILIO[14] library.  TWILIO is a cloud-based platform for sending trial messages and calling services.  It offers five trial messages and calls per day.
