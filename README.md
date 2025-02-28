@@ -1,14 +1,26 @@
-# Intruder-WatchDog
-Right after my graduation, I Developed a System which detects Intruder in a home environment and Alert Owner/Administrator by Call, SMS and WhatsApp using OpenCV, Convolutional neural networks, and Twilio API.
+# Intruder-WatchDog 🚨
 
-    Step 1 : Install OpenCV,PIL,selenium,twilio,numpy
-    Step 2 : Download and install Chrome Driver
+An innovative system designed to detect intruders in a home environment and alert the owner/administrator through multiple channels. Built using **OpenCV**, **Convolutional Neural Networks**, and **Twilio API**, this system offers real-time alerts and enhances home security.
 
-Application : This project alerts owner/administrator with different features whenever, intruder is found.
+---
 
-    Feature1 : Call
-    Feature2 : SMS
-    Feature3 : WhatsApp Messages
-    Feature4 : Location Of Intruder.
+## 🚀 **Features**
 
-I also want to work more on this project in free time and develop more features in the project like picture of the intruder sent to owner and send aleart directly to emergency services.
+- **Call** 📞: Notifies the owner/administrator via an incoming call whenever an intruder is detected.
+- **SMS** 📱: Sends an SMS alert to notify the owner/administrator of an intrusion.
+- **WhatsApp Messages** 💬: Delivers a WhatsApp message to the owner/administrator for quick alerts.
+- **Location of Intruder** 📍: Provides the location of the intruder using GPS or IP-based tracking.
+
+---
+
+## 🛠 **Installation Guide**
+
+To get started with this project, follow these simple steps:
+
+### **Step 1: Install Dependencies**
+
+Ensure you have the following packages installed:
+
+```bash
+pip install opencv-python Pillow selenium twilio numpy
+
